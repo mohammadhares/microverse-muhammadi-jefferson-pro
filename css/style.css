@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#header{
+    width: 100%;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 50px;
+}
+
+#header-img{
+    width: 25%;
+}
+
+#nav-bar{
+    float: right;
+    display: flex;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #666;
+    font-size: 20px;
+    margin-right: 100px;
+    font-family: 'Calibri';
+}
+
+.form{
+    width: 100%;
+    text-align: center;
+}
+
+.form h1{
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+#email{
+    padding: 7px 10px;
+    width: 300px;
+    margin: 10px;
+}
+
+#submit{
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#submit:hover{
+    transition: all 2s ease;
+    background-color: orange;
+}
+
+
+.desc{
+    width: 100%;
+    padding: 120px;
+}
+
+.desc .container{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.content .para{
+    margin-top: 40px;
+}
+
+
+.container-center{
+    width: 50%;
+    margin: 30px auto;
+    padding-left: 100px;
+    text-align: left;
+}
+
+
+.pricing{
+    width: 100%;
+    padding: 120px;
+}
+
+.pricing .container{
+    width: 60%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.pricing .card{
+    margin: 20px;
+    border: 1px solid #888;
+}
+
+.card h1{
+    background-color: #ddd;
+    padding: 12px 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.card h4{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.card p{
+    margin: 12px;
+}
+
+.card .btn{
+    margin: 30px;
+}
+
+.btn a{
+    background-color: #f1c40f;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    transition: all 1s ease;
+    background-color: orangered;
+}
+
+
+footer{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ddd;
+    height: 100px;
+}
+
+.elements{
+    float: right;
+    padding: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    margin: 5px 10px;
+    color: #000;
+}
+
+.links{
+    padding: 10px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+
+@media screen {
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
